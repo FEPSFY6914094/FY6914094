@@ -55,7 +55,15 @@ p.ex1 {
 <p class="ex1">
 <h3 id="Abstract">Abstract</h3>
 <pre>
-  abstact text goes here..........................
+  In this project, I look at five of the different design features used by this Pratt & Whitney engine that I 
+  believe are key to its success. I also provide brief explanations of how turbojet, ramjet and scramjet engines 
+  work before going on to talk about which elements from these engines were applied to the SR-71. Using data from 
+  various sources alongside the aircraft’s flight manual, I was able to understand how each of these systems 
+  function and how they contributed to the performance of the engine at supersonic speeds. I found that special 
+  bleed air bypass valves alongside a very unique inlet design were some of the biggest contributors, with these 
+  elements producing significantly more power than the actual turbine at supersonic speeds. While I found the bypass 
+  valves to be the most significant feature, I concluded that all of these elements required each other for the 
+  engine to function properly and so they were all vastly important to the operation of the aircraft.
 </pre>
 <hr>
 </p>
@@ -85,20 +93,12 @@ p.ex1 {
 <p class="ex1">
 <h3 id="Introduction">Introduction</h3>
 <pre id="Introduction_InText">
-  Active Learning (Angluin, 1988, Cohn et al., 1994) is a paradigm where a concept is learnt by an
-intelligent machine through the interaction of an oracle with the machine system, over a sequence of
-learning epochs. A distinctive component in an active system is the querying strategy, used to sample
-candidate training instances from a pool and evaluate them for informativeness, i.e., their potential
-to improve the classification model. Various strategies have been proposed including; Query by
-Committee (Seung et al., 1992), Monte Carlo estimation (Roy and McCallum, 2001), uncertainty
-sampling (Lewis and Gale, 1994) and version space reduction (margin sampling) (Tong and Koller,
-2001). Irrespective of how the most informative pattern instances are chosen at each epoch they are
-presented for labeling, to a machine (database) or human oracle that has knowledge of the class
-labels. After adding the newly labeled instances to the current training set, a revised model is
-subsequently induced. A goal of this process is to achieve an efficient, incremental advancement of
-learning at each epoch. The process is continued until some stopping criterion has been met, such as
-reaching a stage where information from the selected instances is contrary to the model, causing the
-classifier confidence to drop, as in Vlachos (2008).
+  This project will discuss the key features that enabled the SR-71 to sustain supersonic speeds for hours at a time. 
+  Although many elements contributed to this, I will be focusing primarily on the engine and intakes. I will first focus 
+  on how different engines work, allowing for a better understanding of the specifics I talk about later. Then, having 
+  looked at some base statistics for the engine, I will examine certain elements of the engine which are crucial to its 
+  supersonic capabilities including the bypass ducts, intakes and fuel. This will give an insight as to how the SR-71 
+  could sustain supersonic flight for extended periods (Pace, 2016).
 </pre>
 <hr>
 </p>
@@ -107,7 +107,63 @@ classifier confidence to drop, as in Vlachos (2008).
 <p class="ex1">
 <h3 id="Analysis and discussion">Analysis and discussion</h3>
 <pre id="Analysis and discussion_Intext">
-  Analysis and discussion text goes here..........................
+  To understand the concepts of the SR-71’s engines, it is important to first have an idea of how three of the base 
+  engine types function.
+  
+  Starting with the turbojet engine, this draws air in at the front using stages of fans which compress the air, making 
+  it denser and denser (Hall, 2021a). This dense air is then combusted causing it to expand rapidly, before getting 
+  expelled out from exhaust nozzle at a very high pressure and speed relative to when it entered the engine (Derbel and 
+  Beneda, 2025). Since it has fans to compress the air, it can run when stationary, drawing in its own air to compress 
+  (Hall, 2021b).
+
+  A ramjet works in the same way except it doesn’t have fans to compress the air, using a diffuser instead. Because of this, 
+  these engines only start to work at speeds over Mach 1 as the diffuser requires air ramming into it, allowing it to slow the 
+  air down to subsonic speeds before compressing it, thereby creating the high pressures needed for combustion (Gerbis, 2024).
+ 
+  Finally, a scramjet works similarly to a ramjet, but instead of slowing down the airflow to subsonic speeds, it compresses 
+  and combusts it while it is still at supersonic speed (Hall, 2021c). This greatly reduces the drag as there is less air 
+  resistance slowing the aircraft down.
+  
+  The SR-71 used two afterburning, axial-flow, continuous-bleed Pratt & Whitney J58 (JT11D-20) Turbojet Engines (Pace, 2016) with 
+  each engine producing 34,000 pounds of thrust (Admin, 2017) with afterburner (at sea level in a static condition). The aircraft 
+  weighed roughly 140,000 pounds at take-off (NASA, 2008) giving a thrust-to-weight ratio of 1:0.486 which improved throughout 
+  the flight, as fuel was used, ending each mission with a thrust ratio of nearly 1:1. The turbofan part of the engine had 9 fans 
+  which would sequentially compress the air to 8.8 times the intake pressure (airandspace.si.edu, n.d.) before it was combusted in 
+  the core. 
+  
+  One feature that made this engine so special were the bleed valves that ran from the intake to the afterburner, bypassing some 
+  compressor stages. These valves would open at around Mach 2 (see Figure 1), channelling air directly into the fuel spray rings in 
+  the afterburner (SENIOR CROWN Program Security Classification Guide, 1986). This transition reduced the airflow into the turbine 
+  from 80% to just 8% as valves channelled more and more to the afterburner, effectively converting the engine into a ramjet (Admin, 
+  2017). With most of the air now bypassing the compressor, the engineers needed to find different ways to compress the air. This 
+  was achieved with a unique inlet design.
+ 
+  At the front of each inlet is a spike that moved forwards and backwards, altering the amount of airflow and, at supersonic speeds, 
+  the shape of the shockwave. For engine start-up and all speeds under Mach 1.6, the spike was pushed fully forward. However, at higher 
+  speeds, the spike would pull back 1.625 inches per 0.1 increment increase in Mach number (D’Urso, 2019) as seen in Figure 1. By 
+  reducing the size of the throat, the air is channelled through, this simultaneously increased the volume and the density of air 
+  channelled through the inlet, providing the engine with more oxygen which enabled it to burn more fuel and ultimately produce more 
+  thrust.
+  
+  Two key parts of the exhaust nozzle at the rear of the engine were also designed to improve the function of the engine. The ejector 
+  flaps altered the volume of the exhaust nozzle allowing large changes in the speed and density of the air traveling through the 
+  engine. At sub-sonic speeds, the flaps were closed, decreasing the volume of the exhaust nozzle and forcing the air out of a smaller 
+  gap and therefore at a higher speed. At this speed, the tertiary doors between the compressor and exhaust opened adding more air into 
+  the exhaust nozzle, increasing the pressure further. As the aircraft approached Mach 1.5, the tertiary doors closed and the exhaust 
+  nozzle widened as the pressure and speed of the airflow increases. This continued until the aircraft hit its top speed of about Mach 
+  3.2 where the output of the exhaust nozzle was wider than the input (SENIOR CROWN Program Security Classification Guide, 1986).
+
+  Since the engines operated under a unique set of parameters, a special fuel, JP-7 was developed (Admin, 2017). The aircraft needed 
+  to be as light as possible therefore instead of using separate cooling systems and coolant, they used the fuel to draw heat away 
+  from various components related to and around the engines. This required a fuel that wouldn’t break down under such temperatures 
+  and contained enough lubricant to ensure the components ran smoothly. Additionally, the fuel burned with a very bright flame, 
+  reducing the heat transferred to parts in the afterburner. At full power, the two engines would use over 50,000 gallons of this 
+  fuel per hour (Davis, 2017).
+
+  In conclusion, there are lots of key elements which allow this engine to function as it does. In my opinion, the most crucial is 
+  the bypass system that converts this engine into a ramjet as that provides the power and efficiency to sustain Mach 3 flight. That 
+  being said, the engine wouldn’t function as successfully as it does if any of these design elements were removed.
+
 </pre>
 <hr>
 </p>
@@ -151,22 +207,43 @@ Table 1: Data on cost and lifespan of bridge repairs
 <p class="ex1">
 <h3 id="References">References</h3>
 <pre>
-  Anon, (n.d.). White City Stadium - The Stadium Guide. [online] 
-  Available at: https://www.stadiumguide.com/whitecitystadium/ [Accessed 2 Nov. 2024].
+  Admin, S. (2017). J58 The Powerplant for the Blackbirds. [online] www.thesr71blackbird.com. Available at: 
+  https://www.thesr71blackbird.com/Aircraft/Engines/j58-the-powerplant-for-the-blackbirds [Accessed 23 Oct. 2025].
+  
+airandspace.si.edu. (n.d.). Pratt & Whitney J58 (JT11D-20) Turbojet Engine | National Air and Space Museum. 
+  [online] Available at: https://airandspace.si.edu/collection-objects/pratt-whitney-j58-jt11d-20-turbojet-engine/nasm_A19920006000 [Accessed 23 Oct. 2025].
+  
+D’Urso, S. (2019). The Secret Behind Success Of The World’s Fastest Aircraft: The Engine Nacelles Of The SR-71 Blackbird. 
+  [online] The Aviationist. Available at: https://theaviationist.com/2019/11/29/engine-nacelles-of-the-sr-71-blackbird/ [Accessed 23 Oct. 2025].
+  
+Davis, B.J. (2017). Airframe: The SR-71 Blackbird. [online] Available at: 
+  https://www.proquest.com/docview/1918071180?pq-origsite=primo&accountid=17256&sourcetype=Trade%20Journals [Accessed 23 Oct. 2025].
+  
+Derbel, K. and Beneda, K. (2025). Investigation of Turbojet Engine Performance in Subsonic Flight Conditions with Turbofan Power Ratio as Thrust Parameter.  
+  Periodica Polytechnica.Transportation Engineering, [online] 53(2), pp.194–205. Available at: https://doi.org/10.3311/PPtr.37560 [Accessed 24 Oct. 2025].
+  
+Gerbis, N. (2024). How Ramjets Work. [online] HowStuffWorks. Available at: 
+  https://science.howstuffworks.com/transport/engines-equipment/ramjet.htm [Accessed 16 Oct. 2025].
+  
+Hall, N. (2021b). Ramjet Propulsion. [online] Nasa.gov. Available at: 
+  https://www.grc.nasa.gov/www/k-12/airplane/ramjet.html [Accessed 15 Oct. 2025].
+  
+Hall, N. (2021c). Scramjet Propulsion. [online] www.grc.nasa.gov. Available at: 
+  https://www.grc.nasa.gov/www/k-12/airplane/scramjet.html [Accessed 15 Oct. 2025].
+  
+Hall, N. (2021d). Turbojet Engines. [online] Nasa.gov. Available at: 
+  https://www.grc.nasa.gov/www/k-12/airplane/aturbj.html [Accessed 24 Oct. 2025].
+  
+NASA (2008). SR-71 Blackbird. [online] NASA. Available at: 
+  https://www.nasa.gov/wp-content/uploads/2021/09/495839main_fs-030_sr-71.pdf [Accessed 23 Oct. 2025].
+  
+Pace, S. (2016). The Projects of Skunk Works : 
+  75 Years of Lockheed Martin’s Advanced Development Programs. Quarto Publishing Group USA.
+  
+SENIOR CROWN Program Security Classification Guide (1986). SR71 Flight Manual. [online] pp.1–248. Available at: 
+  https://www.firebirdv8.com/sr/sr71_fm_pt1.pdf [Accessed 23 Oct. 2025].
+  
 
-  Bureau, T.C. & V. (n.d.). Yoyogi National Stadium. [online] 
-  The Official Tokyo Travel Guide, GO TOKYO. Available at: https://www.gotokyo.org/en/spot/346/index.html [Accessed 2 Nov. 2024].
-
-  Olympics.com. (2020). Yoyogi National Stadium. [online] 
-  Available at: https://olympics.com/ioc/news/yoyogi-national-stadium [Accessed 2 Nov. 2024].
-
-  Over 125 years of Olympic venues: post-Games use OSC REFERENCE COLLECTION. (2022). 
-  Available at: https://stillmed.olympics.com/media/Documents/Olympic-Games/Olympic-legacy/Full-report-venues-post-games-use.pdf [Accessed 31 Oct. 2024].
-
-  Panathenaic Stadium. (n.d.). Panathenaic Stadium. [online] 
-  Available at: https://www.panathenaicstadium.gr/en/home/ [Accessed 2 Nov. 2024].
-
-  EXAMPLES - NEED TO BE REPLACED
 </pre>
 <hr>
 </p>   
